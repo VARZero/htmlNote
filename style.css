@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Nanum Gothic',sans-serif;
+    background-color: whitesmoke;
+}
+#bar
+{
+    background-color: #E8530C;
+    color: white;
+    position: fixed;
+    text-align: justify;
+    height: 80px;
+    width: auto;
+    padding-bottom: 5px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#barst
+{
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 70px;
+}
+#menu
+{
+    padding-top: 50px;
+    padding-right: 50px;
+    float: right;
+}
+#contents
+{
+    z-index: -3;
+    position: absolute;
+    top: 85px;
+    left: 10%;
+    right: 10%;
+    padding: 15px;
+    padding-bottom: 30px
+}
+#makeme
+{
+    z-index: -2;
+    padding: 10px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+}
+#textST
+{
+    border-bottom: 1px solid black;
+}
+#textBX
+{
+    background-color: transparent;
+    z-index: 0;
+    position: relative;
+    border: 0;
+    border-left: 3px solid gray;
+    top: 10px;
+    height: 260px;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#compl
+{
+    z-index: 1;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    background-color: mediumseagreen;
+    color: white;
+    width: 50px;
+}
+.content
+{
+    padding: 10px;
+    margin-top: 30px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+}
